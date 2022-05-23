@@ -1,0 +1,76 @@
+.daily_currency, h2, h4, .From select, .To select {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* HEADER */
+.daily_currency div:first-child {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px -380px;
+}
+h2 {
+    user-select: none;
+}
+h2 span:first-child {
+    color: green;
+}
+
+.currency_items {
+    background-color: rgb(92, 193, 233);
+    color: white;
+    font-weight: 555;
+    text-align: center;
+    user-select: none;
+}
+
+.eur {
+    margin-left: 100px;
+}
+
+.currency_value {
+    margin-right: 10px;
+}
+
+/* EXCHANGE */
+.Input_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+}
+
+.From input, .To input {
+    border: 0px;
+    border-bottom: 1px solid black;
+    height: 30px;
+    outline: none;
+    margin-right: 5px;
+}
+
+.From select, .To select {
+    padding-right: 8px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    margin: 33px 20px 0px 20px;
+    background-color: transparent;
+    font-size: 19px;
+    border: none;
+    cursor: pointer; 
+}
+
+h4 {
+    font-size: 17px;
+    user-select: none;
+}
