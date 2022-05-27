@@ -28,6 +28,10 @@ class CurrantCurrency extends React.Component {
             ccyEUR.saleToday = parseFloat(result[1].sale);
             })
         }  
+        // axios.get(`https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5`)
+        // .then(response =>this.setState({
+        //     buyToday: response.data
+        // }));
 
     render() {
         return(
